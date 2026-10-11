@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-off-white: #F0EFEC;
+    --text-black: #050505;
+    --accent-color: #FF4F00;
+  }
+
+  body {
+    @apply font-inter bg-[#F0EFEC] text-[#050505];
+    overflow-x: hidden;
+    cursor: none;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      cursor: auto;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-wide;
+  }
+}
+
+.font-display {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+::selection {
+  background: var(--accent-color);
+  color: #FFF;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-off-white);
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
