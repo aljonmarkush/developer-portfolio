@@ -13,7 +13,7 @@ const PROJECTS = [
     title: "Barangay Bulo E-Gov System",
     category: "Information Management",
     tech: "PHP, MySQL, Bootstrap 5, JS",
-    image: "upload/project/bgry_bulo.png",
+    image: "/upload/project/bgry_bulo.png",
     description: "Comprehensive information management platform designed to streamline resident records, automated document requests, emergency dispatch, and incident log tracking.",
     link: "https://github.com"
   },
@@ -22,7 +22,7 @@ const PROJECTS = [
     title: "Lakbay Kalinga Café",
     category: "E-Commerce / Food Delivery",
     tech: "PHP, MySQL, JavaScript, CSS",
-    image: "upload/project/lakbay.png",
+    image: "/upload/project/lakbay.png",
     description: "A premium web-based food delivery platform designed to streamline café operations, featuring role-based dashboards, integrated map routing, and an immersive customer experience.",
     link: "https://github.com"
   },
@@ -31,7 +31,7 @@ const PROJECTS = [
     title: "Saint William's Academy",
     category: "Web Development / CMS",
     tech: "PHP, MySQL, Tailwind CSS, JS",
-    image: "upload/project/swabi.png",
+    image: "/upload/project/swabi.png",
     description: "Full-stack web application and custom Content Management System (CMS) designed to streamline academic information sharing, news publishing, and administrative content management.",
     link: "https://github.com"
   }
@@ -405,7 +405,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 2.5 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
         >
-          <span className="text-[10px] tracking-widest uppercase text-black/40">Scroll</span>
+          <span className="text-[10px] tracking-widest uppercase text-black/40"></span>
           <div className="w-[1px] h-12 bg-black/20 relative overflow-hidden">
             <motion.div 
               className="w-full h-1/2 bg-[#FF4F00] absolute top-0"
@@ -664,7 +664,7 @@ const Footer = () => (
             <a href={`mailto:${EMAIL}`} className="w-12 h-12 bg-black rounded-full text-[#FF4F00] flex items-center justify-center hover:bg-black/80 transition-all interactive"><Mail size={20} /></a>
           </FadeIn>
         </div>
-        <FadeIn delay={0.5} className="w-full overflow-hidden flex justify-center"><h1 className="font-display text-[12vw] md:text-[10vw] lg:text-[9.5vw] leading-[0.75] uppercase whitespace-nowrap text-black">LET'S BUILD SOMETHING GREAT</h1></FadeIn>
+        <FadeIn delay={0.5} className="w-full overflow-hidden flex justify-center"><h1 className="font-display text-[12vw] md:text-[10vw] lg:text-[9.5vw] leading-[0.75] uppercase whitespace-nowrap text-black">LET'S BUILD SOMETHING NEW</h1></FadeIn>
         <div className="flex justify-between items-center mt-8 text-xs font-bold tracking-widest uppercase text-black/50">
           <span>© {new Date().getFullYear()}</span><span>All Rights Reserved</span>
         </div>
