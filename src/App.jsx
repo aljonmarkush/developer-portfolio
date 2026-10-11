@@ -74,12 +74,6 @@ const EXPERIENCE = [
     role: "President",
     organization: "Supreme Student Council, Saint Tonis College, Inc.",
     description: "Led the student body, managed council operations, and advocated for student welfare, governance, and institutional policies."
-  },
-  {
-    year: "2023 - Present",
-    role: "Technical Director",
-    organization: "The Tonisian Reflectors",
-    description: "Managing technical operations, layout design, and digital implementations for the official school publication."
   }
 ];
 
