@@ -5,7 +5,7 @@ import Lenis from '@studio-freight/lenis'; // <-- Import Lenis
 
 const BRAND_NAME = "@yen_.005";
 const REAL_NAME = "John Lumiwes Palangeo";
-const EMAIL = "johnpalangeo96@example.com"; // Fixed missing @ symbol
+const EMAIL = "johnpalangeo96@gmail.com"; // Fixed missing @ symbol
 
 const PROJECTS = [
   {
